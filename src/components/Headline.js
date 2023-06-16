@@ -10,9 +10,10 @@ export default class Headline extends Component{
         MOVIE DATEBASE
       </h1>
       <p>
-        The OMDb API is a RESTful web service to obtain movie information,
-        all content and images on the site are contributed and maintained by our users.<br>
-        If you find this service useful, please consider making a one-time donation or become a patron.
+        このサイトはOMDB APIを使って作ったサイトですいろんな映画を検索することができます,<br>
+        このサイトのCODEが気になる方は僕のgitに入って見ることができます,Java ScriptとType Scriptのバージョンがあります.<br>
+        誰でも見ることができるからJava Scriptに興味がある人、あるいはJSだけでPage遷移をしたい人は僕のCODEを見てください！.<br>
+        <a href='https://github.com/changwowo/Movie-app' target='_blank'>https://github.com/changwowo</a>
       </p>
     `
   }

@@ -16,7 +16,6 @@ export class Component {
   }
 }
 
-
 ///// Router /////
 // 페이지 렌더링!
 function routeRender(routes) {
@@ -35,7 +34,7 @@ function routeRender(routes) {
       acc[key] = value
       return acc
     }, {})
-  history.replaceState(query, '') // (상태, 제목)
+  history.replaceState(query,'title') // (상태, 제목)
 
   // 2) 현재 라우트 정보를 찾아서 렌더링!
   const currentRoute = routes.find(route => new RegExp(`${route.path}/?$`).test(hash))
@@ -54,6 +53,7 @@ export function createRouter(routes) {
     routeRender(routes)
   }
 }
+
 
 
 ///// Store /////
